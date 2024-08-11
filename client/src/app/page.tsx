@@ -1,7 +1,9 @@
+import GetHoliday from "@/components/GetHoliday";
+import GetOptionChain from "@/components/GetOptionChain";
+import GetPL from "@/components/GetPL";
 import GetToken from "@/components/GetToken";
 import Signin from "@/components/Signin";
-import Image from "next/image";
-import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -15,6 +17,15 @@ export default function Home() {
           </li>
           <li>
             <GetToken />
+          </li>
+          <li>
+            <GetHoliday />
+          </li>
+          <li>
+            <GetPL />
+          </li>
+          <li>
+            <GetOptionChain />
           </li>
         </ul>
       </div>
